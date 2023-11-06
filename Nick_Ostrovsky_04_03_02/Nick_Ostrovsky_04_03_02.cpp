@@ -65,5 +65,5 @@ int main()
 	publication(data3, n);
 	quicksort(data3, 0, n - 1);
 	publication(data3, n);
-
+	return 0;
 }
