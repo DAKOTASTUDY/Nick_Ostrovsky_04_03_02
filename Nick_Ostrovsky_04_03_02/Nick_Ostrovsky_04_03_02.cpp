@@ -48,10 +48,22 @@ void quicksort(int array[], int low, int high)
 }
 int main()
 {
-	int data[] = { 5, 10, 6, 1, 0, 2, 9, 8, 5, 4, 3 };
-	int n = sizeof(data) / sizeof(data[0]);
-	publication(data, n);
-	quicksort(data, 0, n - 1);
-	publication(data, n);
+	int data1[] = { 3, 43, 38, 29, 18, 72, 57, 61, 2, 33};
+	int n = sizeof(data1) / sizeof(data1[0]);
+	publication(data1, n);
+	quicksort(data1, 0, n - 1);
+	publication(data1, n);
+
+	int data2[] = { 88, 91, 87, 59, 53, 49, 29, 16, 4, 27, 28, 89, 2, 25, 74 };
+	 n = sizeof(data2) / sizeof(data2[0]);
+	publication(data2, n);
+	quicksort(data2, 0, n - 1);
+	publication(data2, n);
+
+	int data3[] = { 24, 66, 20, 79, 30, 16, 19, 62, 94, 59, 0, 7, 59, 90, 84, 60, 95, 62 };
+	 n = sizeof(data3) / sizeof(data3[0]);
+	publication(data3, n);
+	quicksort(data3, 0, n - 1);
+	publication(data3, n);
 
 }
